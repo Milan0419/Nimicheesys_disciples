@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nimicheesy's Webshop</title>
     <link rel="stylesheet" href="index.css">
+
 </head>
 <header>
     <img src="logo.png" alt="" >
@@ -19,38 +20,41 @@
         <p><strong>Összeg: <span id="total-price">0</span> Ft</strong></p>
         <button onclick="checkout()" class="btn">Fizetés</button>
   </div>
-    <div class="container">
 
-        <div class="product" data-name="Jean Paul Gaultier Ultra Male 125ML" data-price="35490">
-            <img src="jpg.png" alt="JPG">
-            <h2>Jean Paul Gaultier</h2>
-            <p>Ultra Male 125ML</p>
-            <p><strong>Ára: 35 490 Ft</strong></p>
-            <button onclick="addToCart(this)" class="btn">Kosárba</button>
-        </div>  
-    </div>
-    <div class="container">
 
-        <div class="product" data-name="Valentino Born In Roma Extradose 100ML" data-price="45360">
-            <img src="val.png" alt="JPG">
-            
-            <h2>Valentino</h2>
-            <p>Born In Roma Extradose 100ML</p>
-            <p><strong>Ára: 45 360 Ft</strong></p>
-            <button onclick="addToCart(this)" class="btn">Kosárba</button>
-        </div>
-        <div class="container">
 
-            <div class="product" data-name="Jean Paul Gaultier Ultra Male 125ML" data-price="35490">
-                <img src="jpg.png" alt="JPG">
-                <h2>Jean Paul Gaultier</h2>
-                <p>Ultra Male 125ML</p>
-                <p><strong>Ára: 35 490 Ft</strong></p>
-                <button onclick="addToCart(this)" class="btn">Kosárba</button>
-            </div>  
-        </div>
-    
-    </div>
+
+                    <div class="container">
+                        <div class="product" data-name="Jean Paul Gaultier Ultra Male 125ML" data-price="35490">
+                            <img src="jpg.png" alt="JPG" width="300" height="auto">
+                            <h2>Jean Paul Gaultier</h2>
+                            <p>Ultra Male</p>
+                            <p>125ML</p>
+                            <p><strong>Ára: 35 490 Ft</strong></p>
+                            <button onclick="addToCart(this)" class="btn">Kosárba</button> 
+                        </div>
+
+
+
+                        <div class="product" data-name="Valentino Born In Roma Extradose 100ML" data-price="45360">
+                            <img src="val.png" alt="JPG" width="128" height="auto">
+                            <h2>Valentino</h2>
+                            <p>Born In Roma Extradose 100ML</p>
+                            <p><strong>Ára: 45 360 Ft</strong></p>
+                            <button onclick="addToCart(this)" class="btn">Kosárba</button>
+                        </div>
+
+                        <div class="product" data-name="Valentino Born In Roma Extradose 100ML" data-price="73360">
+                            <img src="tn.png" alt="JPG" width="128" height="auto">
+                            <h2>Nike Air Max Plus</h2>
+                            <p>Triple Black</p>
+                            <p>Méret: 46</p>
+                            <br>
+                            <p><strong>Ára: 73 360 Ft</strong></p>
+                            <button onclick="addToCart(this)" class="btn">Kosárba</button>
+                        </div>
+                </div>
+
     <script>
         let cart = [];
         
